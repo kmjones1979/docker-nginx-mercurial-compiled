@@ -2,7 +2,6 @@ FROM centos:centos7
 
 MAINTAINER "Kevin Jones - kevin@nginx.com"
 
-ENV nginxVersion "1.9.15"
 ENV tmp "/tmp/nginx/src"
 
 # create nginx group and user
